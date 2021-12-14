@@ -1,1 +1,12 @@
-// TODO
+.logoTitle {
+  max-width: 1120px;
+  height: 8rem;
+  margin: 0 auto;
+  padding: 2rem;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+}

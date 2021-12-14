@@ -1,1 +1,44 @@
-// TODO
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.posts {
+  max-width: 720px;
+
+  a {
+      display: block;
+
+      & + a {
+          margin-top: 1.5rem;
+          padding-top: 1.5rem;
+      }
+
+      span,
+      time {
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          color: var(--gray-300);
+          margin-left: 0.3125rem;
+      }
+
+      p {
+          color: var(--gray-300);
+          margin-top: 0.5;
+          line-height: 2.375rem
+      }
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .infoRow {
+        margin: 0.75rem 0;
+        max-width: 275px;
+      }
+  }
+}
